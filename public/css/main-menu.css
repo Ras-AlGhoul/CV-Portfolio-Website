@@ -1,0 +1,14 @@
+.main-menu {
+  text-align: center;
+  margin-bottom: var(--space-big);
+}
+
+.main-menu a {
+  padding: var (--space-small);
+  color: pink;
+}
+
+.main-menu a:hover {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,12 @@
+.picture-item {
+  background-color: #d3e0dc;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.picture-item img {
+  max-width: 100%;
+  height: auto;
+}
+.picture-item .text {
+  margin-left: 4px;
+}

@@ -1,0 +1,37 @@
+.introduction .bio {
+  text-align: center;
+}
+
+.introduction .avatar {
+  margin-bottom: var (--space-medium);
+  border: solid black;
+  border-radius: 150px;
+
+  width: 150px;
+}
+
+.introduction .subtitle {
+  font-size: 24px;
+  margin: 0;
+}
+
+.introduction h1 {
+  margin-bottom: 0;
+}
+
+@media (min-width: 550px) {
+  .introduction .bio {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .introduction .column-left {
+    margin-right: var(--space-big);
+  }
+  .introduction .avatar {
+    margin-bottom: 0;
+  }
+  p {
+    max-width: 600px;
+  }
+}

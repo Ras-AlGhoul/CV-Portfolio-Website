@@ -1,0 +1,31 @@
+.content .conent ul {
+  padding-left: var(--space-medium);
+}
+.content li {
+  list-style: square;
+}
+/* Iphone */
+@media (min-width: 400px) {
+  .content .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: var(--space-small);
+  }
+}
+/* Ipad */
+@media (min-width: 550px) {
+  .content .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-column-gap: var(--space-medium);
+  }
+}
+
+/* computer */
+@media (min-width: 550px) {
+  .content .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: var(--space-big);
+  }
+}
